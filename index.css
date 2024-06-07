@@ -1,0 +1,26 @@
+.video {
+    display: flex;
+    margin-left: 10%; /* Thay vì 700px */
+    height: 50vw; /* Thay vì 500px */
+}
+
+.ngu {
+    display: flex;
+    margin-left: 8%; /* Thay vì 600px */
+}
+
+.dam {
+    display: flex;
+    margin-left: 6%; /* Thay vì 520px */
+}
+img {
+    max-width: 100%; /* Hình ảnh sẽ không vượt quá kích thước của phần tử cha */
+}
+
+.video {
+    max-width: 100%;
+    height: auto; /* Đảm bảo tỷ lệ khung hình được giữ nguyên */
+}
+img {
+    object-fit: cover; /* Hình ảnh sẽ tự động điều chỉnh tỷ lệ */
+}
